@@ -74,7 +74,12 @@ nav li{
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
  }
-#project1:hover{
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6:hover{
  -webkit-transform: scale(2.2);
  -moz-transform: scale(2.2);
  -o-transform: scale(2.2);
@@ -90,7 +95,7 @@ nav li{
     flex-direction:row;
     justify-content:space-around;
 }
-div p.row{
+.row{
 	max-width:350px;
 	 display:flex;
     text-align: center;
