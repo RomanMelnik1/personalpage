@@ -102,7 +102,7 @@ nav li{
 	  flex-direction:row;
     justify-content:center;
 }
-#cont img .foto1{
+#cont img{
 	padding:10px 35px;
 }
 .map{
