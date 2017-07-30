@@ -64,22 +64,12 @@ nav li{
 	padding:10px 50px;
 	overflow:hidden;
 }
-#project1,
-#project2,
-#project3,
-#project4,
-#project5,
-#project6{
+#project img{
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
  }
-#project1,
-#project2,
-#project3,
-#project4,
-#project5,
-#project6:hover{
+#project img:hover{
  -webkit-transform: scale(2.2);
  -moz-transform: scale(2.2);
  -o-transform: scale(2.2);
