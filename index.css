@@ -28,7 +28,7 @@ nav a{
 	width:50px;
 	transform:skew(30deg);	
 }
-ul#menu{
+#menu{
 	width:685px;
 	margin:auto;
 }
@@ -64,7 +64,12 @@ nav li{
 	padding:10px 50px;
 	overflow:hidden;
 }
-#project1{
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6{
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
