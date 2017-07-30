@@ -51,25 +51,26 @@ nav li{
 #logo{
 	display:inline-block;
 }
-#project{
+
+#jobs{
+	text-align:center;
+}
+.project{
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	flex-direction:row;
 }
-#jobs{
-	text-align:center;
-}
-#project1{
+.project img.project1{
 	padding:10px 50px;
 	overflow:hidden;
 }
-.project .project1,.project2 {
+.project img.project1{
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
  }
-.project img:hover{
+.project img.project1:hover{
  -webkit-transform: scale(2.2);
  -moz-transform: scale(2.2);
  -o-transform: scale(2.2);
