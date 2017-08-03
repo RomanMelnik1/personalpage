@@ -136,7 +136,7 @@ textarea{
 	color:white;
 }
 @media(max-width: 400px){
-	#logo.div{
+		#logo{
 		display: flex;
 		flex-direction: column;
 	}
@@ -149,5 +149,27 @@ textarea{
 .projects-logo{
 	width:100%;
 	 
+}
+.about-me{
+	display: flex;
+		flex-direction: column;
+}
+#cont{
+	display: flex;
+		flex-direction: column;
+		width:100%;
+}
+#footer{
+	display: flex;
+		flex-direction: column;
+}
+#news{
+	display: flex;
+		flex-direction: column;
+}
+#about{
+	display: flex;
+		flex-direction: column;
+		width:100%;
 }
 }
