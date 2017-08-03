@@ -10,11 +10,11 @@
 		<header>
 			<nav>
 				<ul id="menu">
-					<li><a href="#">Про мене</a></li>
-					<li><a href="#">Моі роботи</a></li>
-					<li><a href="#">Контакти</a></li>
-					<li><a href="#">Резюме</a></li>
-					<li><a href="#">Головна</a></li>
+					<li><a href="#about">Про мене</a></li>
+					<li><a href="#my-projects">Моі роботи</a></li>
+					<li><a href="#contacts">Контакти</a></li>
+					<li><a href="#news">Новини</a></li>
+					<li><a href="#menu">Головна</a></li>
 				</ul>
 				</nav>
 				<div id="logo">
@@ -84,7 +84,7 @@
 		</section>
 		<hr>
 		<section>	
-			<h1>Контакти</h1>
+			<h1>Напишіть мені</h1>
 				<div id="cont">
 				<a href="#"><img src="images/skype.png"  alt="skype" class="contacts"/></a>
 				<a href="#"><img src="images/YouTube-0.jpg" alt="youtube" class="contacts"/></a>
@@ -101,11 +101,20 @@
             <h1>Контакти</h1>
             <div class="contact-form">
                 <form>
-                    <input type="text" id="name" placeholder="Ваше Ім'я">
+                	<label>Ім'я
+                	<br>
+                    	<input type="text" id="name" placeholder="Ваше Ім'я">
+                    </label>
                     <br>
-                    <input type="email" id="email" placeholder="Ваш E-mail">
+                    <label>E-mail
                     <br>
-                    <textarea rows="8" cols="50" id="comment" placeholder="Ваш коментар"></textarea>
+                    	<input type="email" id="email" placeholder="Ваш E-mail">
+                    </label>
+                    <br>
+                    <label>Коментар
+                    <br>
+                    	<textarea rows="8" cols="50" id="comment" placeholder="Ваш коментар"></textarea>
+                    </label>
                     <br>
                     <input type="submit" id="submit" value="Відправити">
                 </form>
@@ -115,7 +124,7 @@
 		<footer id="footer">
 			
 				<p class="footername">Роман Мельник</p>
-				<p>093 42 44 841</p>
+				<a href="#menu">На початок</a>
 				<p class="footeremail">melnik22222@gmail</p>
 			
 		</footer>
