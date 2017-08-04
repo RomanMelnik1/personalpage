@@ -3,8 +3,14 @@ body{
 	margin:0 auto;
 }
 h1{
-	font-family:Geogia;
+	font-family:"Geogia" sans-serif;
 	font-size:34px;
+    font-weight:bold;
+	text-align:center;
+}
+h2{
+	font-family:"Geogia" sans-serif;
+	font-size:30px;
     font-weight:bold;
 	text-align:center;
 }
