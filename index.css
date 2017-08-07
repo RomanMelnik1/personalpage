@@ -94,12 +94,14 @@ nav li{
     flex-direction: column;
 	padding:0 15px;
 	width:350px;
+	border:1px solid black;
 }
 #news{
 	display: flex;
     flex-direction: column;
 	padding:0 15px;
 	width:350px;
+	border:1px solid black;
 }
 #cont{
 	display:flex;
@@ -124,12 +126,12 @@ form {
     text-align: center;
 }
 #name{
-	border:1px solid red;
+	border:1px solid green;
 	width:99%;
 	
 }
 #email{
-	border:1px solid red;
+	border:1px solid green;
 	width:99%;
 	
 }
